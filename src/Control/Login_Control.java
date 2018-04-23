@@ -43,8 +43,5 @@ public class Login_Control extends Login  implements ActionListener{
 			
 		}
 	}
-    public static void main(String[] args) {
-    	  Login_Control window=new Login_Control();
-    	  window.setVisible(true);  
-      }
+
 }

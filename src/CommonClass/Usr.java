@@ -15,4 +15,7 @@ public class Usr implements Serializable{
      public String GetPass() {
     	 return password;
      }
+     public CommandIndex GetCommand() {
+    	 return CommandNum;
+     }
 }
