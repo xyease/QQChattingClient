@@ -2,5 +2,7 @@ package CommonClass;
 
 public enum CommandIndex {
     Register,
-    Login
+    Login,
+    AddFriends,
+    FriendRequest
 }

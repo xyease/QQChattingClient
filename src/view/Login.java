@@ -59,6 +59,7 @@ public class Login extends JFrame {
 	    this.add(b);   
 	    this.setContentPane(b);	    
 	    this.setVisible(true);
+	    this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
 	}
 	private String turnCharsToString(char[] chars){
 		  StringBuffer strBuf = new StringBuffer();
